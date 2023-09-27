@@ -1,5 +1,5 @@
 {
-  "name": "servable-publishable-server",
+  "name": "servable-publishable",
   "description": "Publishable protocol server for Servable.",
   "type": "module",
   "source": "src/index.js",
@@ -8,9 +8,9 @@
   "author": "Aboubacar Doucoure",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yelounak/servable-publishable-server/issues"
+    "url": "https://github.com/yelounak/servable-publishable/issues"
   },
-  "homepage": "https://github.com/yelounak/servable-publishable-server#readme",
+  "homepage": "https://github.com/yelounak/servable-publishable#readme",
   "files": [
     "src"
   ],
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yelounak/servable-publishable-server.git"
+    "url": "https://github.com/yelounak/servable-publishable.git"
   },
   "keywords": [
     "parse",
