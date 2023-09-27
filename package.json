@@ -68,8 +68,7 @@
   ],
   "peerDependencies": {
     "parse": ">= 3.0.0",
-    "underscore": ">= 1.0.0",
-    "@yelounak/publishable-classes": "*"
+    "underscore": ">= 1.0.0"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.10.2",
