@@ -34,20 +34,20 @@ yarn add servable-publishable-react
 #### Payload sample
 ```json
  {
-    id: 'publishable',
-    name: 'publishable',
-    slug: 'ps',
-    module: {
-        'servable-publishable': '*'
+    "id": "publishable",
+    "name": "publishable",
+    "slug": "ps",
+    "module": {
+        "servable-publishable": "*"
     },
-    version: '*',
-    params: {
-        liveClasses: ['publishable'],
-        schema: {
-            restrictSecurity: true
+    "version": "*",
+    "params": {
+        "liveClasses": ["publishable"],
+        "schema": {
+            "restrictSecurity": true
         }
     }
-},
+}
 ```
 #### Reference
 
