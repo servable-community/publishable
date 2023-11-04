@@ -2,9 +2,9 @@
 
 ![logo](/static/img/polar-bear-4.png)
 
-[![npm Package](https://img.shields.io/npm/v/servable-publishable.svg?style=flat-square)](https://www.npmjs.org/package/servable-publishable)
-[![NPM Downloads](https://img.shields.io/npm/dm/servable-publishable.svg)](https://npmjs.org/package/servable-publishable)
-[![Build Status](https://github.com/yelounak/servable-publishable/actions/workflows/release.yml/badge.svg)](https://github.com/yelounak/servable-publishable/actions/tests.yml)
+[![npm Package](https://img.shields.io/npm/v/@servable-community/publishable.svg?style=flat-square)](https://www.npmjs.org/package/@servable-community/publishable)
+[![NPM Downloads](https://img.shields.io/npm/dm/@servable-community/publishable.svg)](https://npmjs.org/package/@servable-community/publishable)
+[![Build Status](https://github.com/servable-community/publishable/actions/workflows/release.yml/badge.svg)](https://github.com/servable-community/publishable/actions/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -12,21 +12,21 @@ The publishable protocol handles the complete publication state of an object.
 
 ## Install
 ```bash
-yarn add servable-publishable
+yarn add @servable-community/publishable
 ```
 
 ## Auxiliary packages
 
 ### Shared library
-[servable-publishable-shared](https://github.com/yelounak/servable-publishable-shared)
+[@servable-community/publishable-shared](https://github.com/servable-community/publishable-shared)
 ```bash
-yarn add servable-publishable-shared
+yarn add @servable-community/publishable-shared
 ```
 
 ### React library
-[servable-publishable-react](https://github.com/yelounak/servable-publishable-react)
+[@servable-community/publishable-react](https://github.com/servable-community/publishable-react)
 ```bash
-yarn add servable-publishable-react
+yarn add @servable-community/publishable-react
 ```
 
 ## Protocol
@@ -38,7 +38,7 @@ yarn add servable-publishable-react
     "name": "publishable",
     "slug": "ps",
     "module": {
-        "servable-publishable": "*"
+        "@servable-community/publishable": "*"
     },
     "version": "*",
     "params": {
@@ -110,4 +110,4 @@ You can find here the complete [servable documentation](https://documentation.se
 
 ## License
 
-MIT © [yelounak](https://github.com/yelounak)
+MIT © [servable-community](https://github.com/servable-community)
