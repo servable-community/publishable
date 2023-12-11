@@ -1,6 +1,8 @@
 import _ from 'underscore'
+import { utils as PublishableUtils } from "servable-publishable-shared"
 
-export const beforeSave = async (request) => {
+export const beforeSave = async (props) => {
+    const { request } = props
     const { object, } = request
 
     if (!object.get('publishableStatus')) {
@@ -13,7 +15,7 @@ export const beforeSave = async (request) => {
         return
     }
 
-    object.publishableUpdatePublication()
+    PublishableUtils.updatePublication({ item: object })
     if (_.intersection(['publishableStatus'], dirtyKeys).length > 0) {
 
     }
