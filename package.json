@@ -73,6 +73,9 @@
     "servable-engine": "*",
     "underscore": ">= 1.0.0"
   },
+  "dependencies": {
+    "servable-publishable-shared": "^1.0.1"
+  },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.10.2",
     "cz-conventional-changelog": "^3.3.0",
