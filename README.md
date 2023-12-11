@@ -1,113 +1,64 @@
-# Publishable Protocol
+# Publishable protocol
 
-![logo](/static/img/polar-bear-4.png)
+
+@publishable, #1.0.0
+
+
+> [!WARNING]
+
+> Servable is still experimental and its api may change in the future.
+
+  
+
+![icon](/static/img/polar-bear-4.png "icon")
+
+
+
 
 [![npm Package](https://img.shields.io/npm/v/@servable-community/publishable.svg?style=flat-square)](https://www.npmjs.org/package/@servable-community/publishable)
+
 [![NPM Downloads](https://img.shields.io/npm/dm/@servable-community/publishable.svg)](https://npmjs.org/package/@servable-community/publishable)
+
 [![Build Status](https://github.com/servable-community/publishable/actions/workflows/release.yml/badge.svg)](https://github.com/servable-community/publishable/actions/tests.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-The publishable protocol handles the complete publication state of an object.
-
-## Install
-```bash
-yarn add @servable-community/publishable
-```
-
-## Auxiliary packages
-
-### Shared library
-[@servable-community/publishable-shared](https://github.com/servable-community/publishable-shared)
-```bash
-yarn add @servable-community/publishable-shared
-```
-
-### React library
-[@servable-community/publishable-react](https://github.com/servable-community/publishable-react)
-```bash
-yarn add @servable-community/publishable-react
-```
-
-## Protocol
-### Configuration
-#### Payload sample
-```json
- {
-    "id": "publishable",
-    "name": "publishable",
-    "slug": "ps",
-    "module": {
-        "@servable-community/publishable": "*"
-    },
-    "version": "*",
-    "params": {
-        "liveClasses": ["publishable"],
-        "schema": {
-            "restrictSecurity": true
-        }
-    }
-}
-```
-#### Reference
 
 
-### Capacities
-#### Schema
-**Classes**
-TODO
 
-**Class level permissions**
-TODO
+Generated documentation below
 
-**Indexes**
-```json
-{
-    "_publishableStatus": {
-        "publishableStatus": 1
-    }
-}
-```
 
-**Fields**
-```json
-{
-    "publishableStatus": {
-        "type": "String"
-    }
-}
-```
+## A complete lifecycle management for publication
 
-#### Protocol class
-TODO
-#### Classes
-TODO
-#### Triggers
-TODO
-#### Before init
-TODO
-#### After init
-TODO
-#### Seed
-TODO
-#### Config
-TODO
-#### Functions
-TODO
-#### Jobs
-TODO
-#### Live classes
-TODO
 
-### Security
-TODO
 
-### Performance
-TODO
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-## Servable Documentation
-You can find here the complete [servable documentation](https://documentation.servable.app/) with guides and api reference.
 
-## License
 
-MIT © [servable-community](https://github.com/servable-community)
+
+
+## Seed
+
+## Protocol class
+
+## Before init
+
+## After init
+
+## Config
+
+## Functions
+
+## Live Classes
+
+## Schema
+
+## System
+
+## Lib
+
+## Triggers

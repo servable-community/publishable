@@ -1,0 +1,46 @@
+{
+  "type": "protocol",
+  "mode": "original",
+  "version": "1.0.0",
+  "id": "publishable",
+  "name": "Publishable",
+  "description": "The publishable protocol handles the complete publication state of an object.",
+  "homepage": "",
+  "icon": "",
+  "categories": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "",
+    "github": ""
+  },
+  "keywords": [],
+  "license": "Apache 2.0",
+  "forks": {},
+  "packages": [
+    {
+      "id": "publishable",
+      "description": "",
+      "type": "main",
+      "components": [
+        "server"
+      ],
+      "url": "",
+      "dependencies": {},
+      "forks": {},
+      "usage": {
+        "howto": "",
+        "template": {
+          "id": "publishable",
+          "name": "Publishable",
+          "slug": "",
+          "params": {}
+        },
+        "parameters": []
+      },
+      "engines": {
+        "servable-engine": "latest"
+      }
+    }
+  ]
+}
