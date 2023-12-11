@@ -39,6 +39,7 @@
     "test:watch": "react-scripts test --env=jsdom",
     "servable:document": "node -e 'import(\"../../../core/manifest/src/index.js\").then(m => m.documentProtocol({path: (process.cwd() + \"/src\"), write: true}))'",
     "servable:readme": "node -e 'import(\"../../../core/manifest/src/index.js\").then(m => m.generateGithubReadme({path: (process.cwd() + \"/src\"), write: true}))'",
+    "servable:document_": "node -e 'import(\"./node_modules/servable-manifest/src/index.js\").then(m => m.documentProtocol({path: (process.cwd() + \"/src\"), write: true}))'",
     "prepare": "husky install"
   },
   "repository": {
