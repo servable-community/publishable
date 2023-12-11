@@ -18,5 +18,7 @@ export default async (props) => {
   PublishableUtils.updatePublication({ item: object })
   if (_.intersection(['publishableStatus'], dirtyKeys).length > 0) {
 
+  } else {
+
   }
 }
