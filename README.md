@@ -59,8 +59,16 @@ npm install @servable-community/publishable
 
 ### Template
 
+
+Add this template to your class' protocols.json file. Fill the values to fit your needs with the right parameters.
+
 ```json
-{"id":"publishable","name":"Publishable","slug":"","params":{}}
+{
+  "id": "publishable",
+  "name": "Publishable",
+  "slug": "",
+  "params": {}
+}
 ```
 
 ### Parameters
@@ -97,3 +105,13 @@ npm install @servable-community/publishable
 ## Lib
 
 ## Triggers
+
+## Servable Documentation
+
+
+You can find here the complete [servable documentation](https://documentation.servable.app/) with guides and api reference.
+
+## License
+
+
+MIT © [servable-community](https://github.com/servable-community)
