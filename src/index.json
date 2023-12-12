@@ -41,11 +41,60 @@
           "slug": "",
           "params": {}
         },
-        "parameters": []
+        "parameters": [
+          {
+            "id": "waitForValidation",
+            "prompt": {
+              "type": "input",
+              "name": "Wait for validation",
+              "message": "Wait for validation",
+              "vacuity": "optional",
+              "validators": [
+                {
+                  "type": "",
+                  "params": {}
+                }
+              ]
+            }
+          },
+          {
+            "id": "errorMessage",
+            "prompt": {
+              "type": "input",
+              "message": "Error message",
+              "default": "Could not publish",
+              "vacuity": "mandatory",
+              "validators": [
+                {
+                  "type": "",
+                  "params": {}
+                }
+              ]
+            }
+          },
+          {
+            "id": "notifyOnError",
+            "prompt": {
+              "type": "input",
+              "message": "Notify on error",
+              "default": false,
+              "vacuity": "mandatory",
+              "validators": [
+                {
+                  "type": "",
+                  "params": {}
+                }
+              ]
+            }
+          }
+        ]
       },
       "engines": {
         "servable-engine": "latest"
       }
     }
-  ]
+  ],
+  "registry": {
+    "id": "@servable-community/publishable"
+  }
 }
