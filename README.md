@@ -1,4 +1,4 @@
-# Publishable protocol
+# Publishable *protocol for Servable*
 
 
 @servable-community/publishable, #1.0.0
