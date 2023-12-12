@@ -2,7 +2,7 @@
   "type": "protocol",
   "mode": "original",
   "version": "1.0.0",
-  "id": "publishable",
+  "id": "@servable-community/publishable",
   "name": "Publishable",
   "description": "The publishable protocol handles the complete publication state of an object.",
   "homepage": "",
@@ -19,12 +19,17 @@
   "forks": {},
   "packages": [
     {
-      "id": "publishable",
+      "id": "@servable-community/publishable",
       "description": "",
       "type": "main",
+      "name": "Publishable",
+      "version": "1.0.0",
       "components": [
         "server"
       ],
+      "github": {
+        "id": "servable-community/publishable"
+      },
       "url": "",
       "dependencies": {},
       "forks": {},
