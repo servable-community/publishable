@@ -27,10 +27,13 @@
       "components": [
         "server"
       ],
-      "github": {
-        "id": "servable-community/publishable"
+      "repository": {
+        "type": "git",
+        "provider": "github",
+        "url": "https://github.com/servable-community/publishable.git",
+        "username": "servable-community",
+        "name": "publishable"
       },
-      "url": "",
       "dependencies": {},
       "forks": {},
       "usage": {
@@ -91,6 +94,22 @@
       },
       "engines": {
         "servable-engine": "latest"
+      }
+    },
+    {
+      "id": "@servable-community/servable-publishable-shared",
+      "version": "1.0.0",
+      "description": "",
+      "type": "classes",
+      "components": [
+        "server"
+      ],
+      "repository": {
+        "type": "git",
+        "provider": "github",
+        "url": "https://github.com/servable-community/servable-publishable-shared.git",
+        "username": "servable-community",
+        "name": "servable-publishable-shared"
       }
     }
   ],

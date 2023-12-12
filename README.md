@@ -14,8 +14,7 @@
 
 
 
-### Companion packages
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=publishable"/>
+
 
 
 ## A complete lifecycle management for publication
@@ -55,6 +54,14 @@ or
 ```bash
 npm install @servable-community/publishable
 ```
+
+### Companion packages
+
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=servable-publishable-shared"/>
+
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=servable-publishable-shared"/>
 
 ## Usage
 
