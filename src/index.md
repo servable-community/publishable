@@ -17,8 +17,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
   }
 }%%
 flowchart TD
-    start([Launch Servable]) --> requiresMigration{A protocol requires migration?}
-    requiresMigration -- Yes --> migrate[Migrate every protocol that requires migration]
+    start([Launch Servable]) --> requiresMigration{A protocol\n requires\n migration?}
+    requiresMigration -- Yes --> migrate[Migrate every protocol \nthat requires migration]
     requiresMigration -- No --> doLaunch[Do Launch]
     migrate --> doLaunch[Do Launch]
 ```

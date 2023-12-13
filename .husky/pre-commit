@@ -3,3 +3,4 @@
 
 yarn servable:document
 yarn servable:readme
+yarn servable:license
