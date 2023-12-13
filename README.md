@@ -23,7 +23,23 @@
 
 Allow any object to be in a published or drafted state.
 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+
+
+```mermaid
+
+flowchart TD
+
+    start([Launch Servable]) --> requiresMigration{A protocol requires migration?}
+
+    requiresMigration -- Yes --> migrate[Migrate every protocol that requires migration]
+
+    requiresMigration -- No --> doLaunch[Do Launch]
+
+    migrate --> doLaunch[Do Launch]
+
+```
 
 
 
@@ -163,12 +179,19 @@ Add this template to your class' protocols.json file. Fill the values to fit you
 
 ## Triggers
 
-## Servable Documentation
+## Resources
+
+### Servable Documentation
 
 
-You can find here the complete [servable documentation](https://documentation.servable.app/) with guides and api reference.
+You can find here the complete [servable documentation](https://documentation.servablecommunity.com/) with guides and api reference.
 
-## License
+### Servable Registry
+
+
+You can find other Servable  protocols at the [Servable registry](https://registry.servablecommunity.com/)
+
+### License
 
 
 MIT © [servable-community](https://github.com/servable-community)
