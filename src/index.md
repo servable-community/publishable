@@ -11,8 +11,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
       'primaryColor': '#fff',
       'primaryTextColor': '#323232',
       'primaryBorderColor': '#323232',
-      'lineColor': '#323232',
-      'fontFamily': 'Space Grotesk'
+      'lineColor': '#323232'
     }
   }
 }%%
