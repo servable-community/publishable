@@ -1,0 +1,22 @@
+{
+  "managed": {
+    "classes": []
+  },
+  "target": {
+    "classLevelPermissions": {
+      "protectedFields": {
+        "*": []
+      }
+    },
+    "fields": {
+      "publishableStatus": {
+        "type": "String"
+      }
+    },
+    "indexes": {
+      "_publishableStatus": {
+        "publishableStatus": 1
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 # Publishable *protocol for Servable*
 
 
-@servable-community/publishable, #1.0.0
+**@servable-community/publishable**
 
 
 [![npm Package](https://img.shields.io/npm/v/@servable-community/publishable.svg?style=flat-square)](https://www.npmjs.org/package/@servable-community/publishable) [![NPM Downloads](https://img.shields.io/npm/dm/@servable-community/publishable.svg)](https://npmjs.org/package/@servable-community/publishable) [![Build Status](https://github.com/servable-community/publishable/actions/workflows/release.yml/badge.svg)](https://github.com/servable-community/publishable/actions/tests.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -28,6 +28,34 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 ```mermaid
+
+%%{
+
+  init: {
+
+    'theme': 'base',
+
+    'themeVariables': {
+
+      'primaryColor': '#fff',
+
+      'primaryTextColor': '#323232',
+
+      'primaryBorderColor': '#323232',
+
+      'lineColor': '#323232',
+
+      'secondaryColor': '#e76f51',
+
+      'tertiaryColor': '#e76f51',
+
+      'fontFamily': 'Space Grotesk' 
+
+    }
+
+  }
+
+}%%
 
 flowchart TD
 
@@ -93,41 +121,6 @@ npm install @servable-community/publishable
 
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=localable"/>
 
-##### Applies to classes: *commentableEntry*
-
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=versionable"/>
-
-##### Applies to classes: *commentableEntry*
-
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=reactable"/>
-
-##### Applies to classes: *commentableEntry*
-
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=commentable"/>
-
-##### Applies to classes: *commentableEntry*
-
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=publishable"/>
-
-##### Applies to classes: *commentableEntry*
-
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=reviewable"/>
-
-##### Applies to classes: *commentableEntry*
-
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=taggable"/>
-
-##### Applies to classes: *commentableEntry*
-
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=sharable"/>
-
 ## Usage
 
 ### Template
@@ -152,11 +145,6 @@ Add this template to your class' protocols.json file. Fill the values to fit you
 | input | errorMessage | Error message | Could not publish | mandatory |
 | input | notifyOnError | Notify on error |  | mandatory |
 
----
-
-
-*Generated documentation below*
-
 ## Seed
 
 ## Protocol class
@@ -172,6 +160,29 @@ Add this template to your class' protocols.json file. Fill the values to fit you
 ## Live Classes
 
 ## Schema
+
+#### Target class
+
+
+**Fields**
+
+| Name | Type | Target class | Default value |
+| ---- | ---- | ------------ | ------------- |
+| publishableStatus | String |  |  |
+
+
+**Class Level Permissions**
+
+| Name | Content |
+| ---- | ------- |
+| protectedFields | {"*":[]} |
+
+
+**Indexes**
+
+| Name | Content |
+| ---- | ------- |
+| _publishableStatus | {"publishableStatus":1} |
 
 ## System
 
