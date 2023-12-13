@@ -34,7 +34,112 @@
         "username": "servable-community",
         "name": "publishable"
       },
-      "dependencies": {},
+      "dependencies": [
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/localable.git",
+          "username": "servable-community",
+          "name": "localable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/localable"
+          }
+        },
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/versionable.git",
+          "username": "servable-community",
+          "name": "versionable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/versionable"
+          }
+        },
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/reactable.git",
+          "username": "servable-community",
+          "name": "reactable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/reactable"
+          }
+        },
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/commentable.git",
+          "username": "servable-community",
+          "name": "commentable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/commentable"
+          }
+        },
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/publishable.git",
+          "username": "servable-community",
+          "name": "publishable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/publishable"
+          }
+        },
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/reviewable.git",
+          "username": "servable-community",
+          "name": "reviewable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/reviewable"
+          }
+        },
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/taggable.git",
+          "username": "servable-community",
+          "name": "taggable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/taggable"
+          }
+        },
+        {
+          "type": "git",
+          "provider": "github",
+          "url": "https://github.com/servable-community/sharable.git",
+          "username": "servable-community",
+          "name": "sharable",
+          "classes": [
+            "commentableEntry"
+          ],
+          "registry": {
+            "id": "@servable-community/sharable"
+          }
+        }
+      ],
       "forks": {},
       "usage": {
         "howto": "",
