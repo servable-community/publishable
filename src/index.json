@@ -29,18 +29,29 @@
       ],
       "repository": {
         "type": "git",
-        "provider": "github",
-        "url": "https://github.com/servable-community/publishable.git",
-        "username": "servable-community",
-        "name": "publishable"
+        "url": "https://github.com/servable-community/publishable.git"
       },
       "dependencies": [
         {
           "type": "git",
-          "provider": "github",
+          "url": "https://github.com/servable-community/disposableorphansable.git",
+          "appliesto": "target",
+          "registry": {
+            "id": "@servable-community/disposableorphansable"
+          }
+        },
+        {
+          "type": "git",
+          "url": "https://github.com/servable-community/disposablechildrenable.git",
+          "appliesto": "target",
+          "registry": {
+            "id": "@servable-community/disposablechildrenable"
+          }
+        },
+        {
+          "type": "git",
           "url": "https://github.com/servable-community/localable.git",
-          "username": "servable-community",
-          "name": "localable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],
@@ -50,10 +61,8 @@
         },
         {
           "type": "git",
-          "provider": "github",
           "url": "https://github.com/servable-community/versionable.git",
-          "username": "servable-community",
-          "name": "versionable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],
@@ -63,10 +72,8 @@
         },
         {
           "type": "git",
-          "provider": "github",
           "url": "https://github.com/servable-community/reactable.git",
-          "username": "servable-community",
-          "name": "reactable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],
@@ -76,10 +83,8 @@
         },
         {
           "type": "git",
-          "provider": "github",
           "url": "https://github.com/servable-community/commentable.git",
-          "username": "servable-community",
-          "name": "commentable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],
@@ -89,10 +94,8 @@
         },
         {
           "type": "git",
-          "provider": "github",
           "url": "https://github.com/servable-community/publishable.git",
-          "username": "servable-community",
-          "name": "publishable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],
@@ -102,10 +105,8 @@
         },
         {
           "type": "git",
-          "provider": "github",
           "url": "https://github.com/servable-community/reviewable.git",
-          "username": "servable-community",
-          "name": "reviewable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],
@@ -115,10 +116,8 @@
         },
         {
           "type": "git",
-          "provider": "github",
           "url": "https://github.com/servable-community/taggable.git",
-          "username": "servable-community",
-          "name": "taggable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],
@@ -128,10 +127,8 @@
         },
         {
           "type": "git",
-          "provider": "github",
           "url": "https://github.com/servable-community/sharable.git",
-          "username": "servable-community",
-          "name": "sharable",
+          "appliesto": "managed",
           "classes": [
             "commentableEntry"
           ],

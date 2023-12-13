@@ -58,9 +58,19 @@ npm install @servable-community/publishable
 ### Companion packages
 
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=servable-publishable-shared"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=undefined&repo=undefined"/>
 
 ### Dependencies
+
+#### Target classes
+
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=disposableorphansable"/>
+
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=servable-community&repo=disposablechildrenable"/>
+
+#### Managed classes
 
 ##### Applies to classes: *commentableEntry*
 
