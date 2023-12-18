@@ -28,6 +28,10 @@
       "components": [
         "server"
       ],
+      "categories": [
+        "app",
+        "generic"
+      ],
       "repository": {
         "type": "git",
         "url": "https://github.com/servable-community/publishable.git"

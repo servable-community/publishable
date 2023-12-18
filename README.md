@@ -101,7 +101,7 @@ npm install @servable-community/publishable
 | ------- | ------- | ---- |
 | @servable-community/parse-server-adapter | * | https://github.com/servable-community/parse-server-adapter.git |
 
-## Compatible APIs
+## Used APIs
 
 | Api | Version |
 | --- | ------- |
@@ -113,6 +113,11 @@ npm install @servable-community/publishable
 | Installation | * |
 | Config | * |
 | LiveQuery | * |
+
+## Categories
+
+
+![Static Badge](https://img.shields.io/badge/app-orange) ![Static Badge](https://img.shields.io/badge/generic-orange)
 
 ### Companion packages
 
