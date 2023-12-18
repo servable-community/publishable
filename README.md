@@ -55,9 +55,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 flowchart TD
 
-    start([Launch Servable]) --> requiresMigration{A protocol requires migration?}
+    start([Launch Servable]) --> requiresMigration{A protocol\n requires\n migration?}
 
-    requiresMigration -- Yes --> migrate[Migrate every protocol that requires migration]
+    requiresMigration -- Yes --> migrate[Migrate every protocol \nthat requires migration]
 
     requiresMigration -- No --> doLaunch[Do Launch]
 
@@ -94,6 +94,25 @@ or
 ```bash
 npm install @servable-community/publishable
 ```
+
+## Compatible framework adapters
+
+| Adapter | Version | Link |
+| ------- | ------- | ---- |
+| @servable-community/parse-server-adapter | * | https://github.com/servable-community/parse-server-adapter.git |
+
+## Compatible APIs
+
+| Api | Version |
+| --- | ------- |
+| Object | * |
+| Cloud | * |
+| User | * |
+| Role | * |
+| Session | * |
+| Installation | * |
+| Config | * |
+| LiveQuery | * |
 
 ### Companion packages
 

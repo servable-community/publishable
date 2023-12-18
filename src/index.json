@@ -6,8 +6,6 @@
   "name": "Publishable",
   "description": "The publishable protocol handles the complete publication state of an object.",
   "homepage": "",
-  "icon": "",
-  "categories": "",
   "author": {
     "name": "",
     "email": "",
@@ -17,6 +15,9 @@
   "keywords": [],
   "license": "Apache 2.0",
   "forks": {},
+  "categories": [
+    "app"
+  ],
   "packages": [
     {
       "id": "@servable-community/publishable",
@@ -61,6 +62,47 @@
         }
       ],
       "forks": {},
+      "adapters": [
+        {
+          "id": "@servable-community/parse-server-adapter",
+          "version": "*",
+          "url": "https://github.com/servable-community/parse-server-adapter.git"
+        }
+      ],
+      "apis": [
+        {
+          "id": "Object",
+          "version": "*"
+        },
+        {
+          "id": "Cloud",
+          "version": "*"
+        },
+        {
+          "id": "User",
+          "version": "*"
+        },
+        {
+          "id": "Role",
+          "version": "*"
+        },
+        {
+          "id": "Session",
+          "version": "*"
+        },
+        {
+          "id": "Installation",
+          "version": "*"
+        },
+        {
+          "id": "Config",
+          "version": "*"
+        },
+        {
+          "id": "LiveQuery",
+          "version": "*"
+        }
+      ],
       "usage": {
         "howto": "",
         "template": {
