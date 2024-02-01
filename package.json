@@ -40,8 +40,8 @@
     "servable:document": "node -e 'import(\"../../../core/manifest/src/index.js\").then(m => m.documentProtocol({path: (process.cwd() + \"/src\"), write: true}))'",
     "servable:readme": "node -e 'import(\"../../../core/manifest/src/index.js\").then(m => m.generateGithubReadme({path: (process.cwd() + \"/src\"), write: true, targetPath: (process.cwd() + \"/README.md\" )}))'",
     "servable:license": "cp ./src/LICENSE ./LICENSE 2>/dev/null || :",
-    "servable:readme_": "node -e 'import(\"./node_modules/@servable/manifest/src/index.js\").then(m => m.generateGithubReadme({path: (process.cwd() + \"/src\"), write: true, targetPath: (process.cwd() + \"/README.md\" )}))'",
-    "servable:document_": "node -e 'import(\"./node_modules/@servable/manifest/src/index.js\").then(m => m.documentProtocol({path: (process.cwd() + \"/src\"), write: true}))'"
+    "servable:readme_": "node -e 'import(\"./node_modules/@servable/tools/src/index.js\").then(m => m.generateGithubReadme({path: (process.cwd() + \"/src\"), write: true, targetPath: (process.cwd() + \"/README.md\" )}))'",
+    "servable:document_": "node -e 'import(\"./node_modules/@servable/tools/src/index.js\").then(m => m.documentProtocol({path: (process.cwd() + \"/src\"), write: true}))'"
   },
   "repository": {
     "type": "git",
@@ -73,12 +73,9 @@
     }
   ],
   "peerDependencies": {
-    "servable-engine": "*",
     "underscore": ">= 1.0.0"
   },
-  "dependencies": {
-    "servable-publishable-shared": "^1.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.10.2",
     "cz-conventional-changelog": "^3.3.0",

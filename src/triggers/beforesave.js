@@ -1,5 +1,5 @@
 import _ from 'underscore'
-import { utils as PublishableUtils } from "servable-publishable-shared"
+import * as PublishableUtils from "../lib/index.js"
 
 export default async (props) => {
   const { request } = props
@@ -17,8 +17,6 @@ export default async (props) => {
 
   PublishableUtils.updatePublication({ item: object })
   if (_.intersection(['publishableStatus'], dirtyKeys).length > 0) {
-
-  } else {
 
   }
 }

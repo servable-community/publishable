@@ -2,6 +2,7 @@
   "type": "protocol",
   "mode": "original",
   "version": "1.0.0",
+  "apiVersion": "1.0.0",
   "id": "@servable-community/publishable",
   "name": "Publishable",
   "description": "The publishable protocol handles the complete publication state of an object.",
@@ -14,159 +15,158 @@
   },
   "keywords": [],
   "license": "Apache 2.0",
-  "forks": {},
-  "categories": [
-    "app"
+  "components": [
+    "server"
   ],
-  "packages": [
+  "categories": [
+    "app",
+    "generic"
+  ],
+  "manifest": {
+    "routes": [],
+    "classes": [],
+    "seed": {},
+    "config": {},
+    "jobs": {},
+    "functions": {},
+    "class": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/servable-community/publishable.git"
+  },
+  "dependencies": [
     {
-      "id": "@servable-community/publishable",
-      "description": "",
-      "type": "main",
-      "name": "Publishable",
-      "version": "1.0.0",
-      "components": [
-        "server"
-      ],
-      "categories": [
-        "app",
-        "generic"
-      ],
-      "repository": {
-        "type": "git",
-        "url": "https://github.com/servable-community/publishable.git"
-      },
-      "dependencies": [
-        {
-          "type": "git",
-          "url": "https://github.com/servable-community/disposableorphansable.git",
-          "appliesto": "target",
-          "registry": {
-            "id": "@servable-community/disposableorphansable"
-          }
-        },
-        {
-          "type": "git",
-          "url": "https://github.com/servable-community/disposablechildrenable.git",
-          "appliesto": "target",
-          "registry": {
-            "id": "@servable-community/disposablechildrenable"
-          }
-        },
-        {
-          "type": "git",
-          "url": "https://github.com/servable-community/localable.git",
-          "appliesto": "managed",
-          "classes": [
-            "commentableEntry"
-          ],
-          "registry": {
-            "id": "@servable-community/localable"
-          }
-        }
-      ],
-      "forks": {},
-      "adapters": [
-        {
-          "id": "@servable-community/parse-server-adapter",
-          "version": "*",
-          "url": "https://github.com/servable-community/parse-server-adapter.git"
-        }
-      ],
-      "apis": [
-        {
-          "id": "Object",
-          "version": "*"
-        },
-        {
-          "id": "Cloud",
-          "version": "*"
-        },
-        {
-          "id": "User",
-          "version": "*"
-        },
-        {
-          "id": "Role",
-          "version": "*"
-        },
-        {
-          "id": "Session",
-          "version": "*"
-        },
-        {
-          "id": "Installation",
-          "version": "*"
-        },
-        {
-          "id": "Config",
-          "version": "*"
-        },
-        {
-          "id": "LiveQuery",
-          "version": "*"
-        }
-      ],
-      "usage": {
-        "howto": "",
-        "template": {
-          "id": "publishable",
-          "name": "Publishable",
-          "slug": "",
-          "params": {}
-        },
-        "parameters": [
-          {
-            "id": "waitForValidation",
-            "prompt": {
-              "type": "input",
-              "name": "Wait for validation",
-              "message": "Wait for validation",
-              "vacuity": "optional",
-              "validators": [
-                {
-                  "type": "",
-                  "params": {}
-                }
-              ]
-            }
-          },
-          {
-            "id": "errorMessage",
-            "prompt": {
-              "type": "input",
-              "message": "Error message",
-              "default": "Could not publish",
-              "vacuity": "mandatory",
-              "validators": [
-                {
-                  "type": "",
-                  "params": {}
-                }
-              ]
-            }
-          },
-          {
-            "id": "notifyOnError",
-            "prompt": {
-              "type": "input",
-              "message": "Notify on error",
-              "default": false,
-              "vacuity": "mandatory",
-              "validators": [
-                {
-                  "type": "",
-                  "params": {}
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "engines": {
-        "servable-engine": "latest"
+      "type": "git",
+      "url": "https://github.com/servable-community/disposableorphansable.git",
+      "appliesto": "target",
+      "registry": {
+        "id": "@servable-community/disposableorphansable"
       }
     },
+    {
+      "type": "git",
+      "url": "https://github.com/servable-community/disposablechildrenable.git",
+      "appliesto": "target",
+      "registry": {
+        "id": "@servable-community/disposablechildrenable"
+      }
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/servable-community/localable.git",
+      "appliesto": "managed",
+      "classes": [
+        "commentableEntry"
+      ],
+      "registry": {
+        "id": "@servable-community/localable"
+      }
+    }
+  ],
+  "forks": {},
+  "adapters": [
+    {
+      "id": "@servable-community/parse-server-engine",
+      "version": "*",
+      "url": "https://github.com/servable-community/parse-server-engine.git"
+    }
+  ],
+  "apis": [
+    {
+      "id": "Route",
+      "version": "*"
+    },
+    {
+      "id": "Object",
+      "version": "*"
+    },
+    {
+      "id": "Cloud",
+      "version": "*"
+    },
+    {
+      "id": "User",
+      "version": "*"
+    },
+    {
+      "id": "Role",
+      "version": "*"
+    },
+    {
+      "id": "Session",
+      "version": "*"
+    },
+    {
+      "id": "Installation",
+      "version": "*"
+    },
+    {
+      "id": "Config",
+      "version": "*"
+    },
+    {
+      "id": "LiveQuery",
+      "version": "*"
+    }
+  ],
+  "usage": {
+    "howto": "",
+    "template": {
+      "id": "publishable",
+      "name": "Publishable",
+      "slug": "",
+      "params": {}
+    },
+    "parameters": [
+      {
+        "id": "waitForValidation",
+        "prompt": {
+          "type": "input",
+          "name": "Wait for validation",
+          "message": "Wait for validation",
+          "vacuity": "optional",
+          "validators": [
+            {
+              "type": "",
+              "params": {}
+            }
+          ]
+        }
+      },
+      {
+        "id": "errorMessage",
+        "prompt": {
+          "type": "input",
+          "message": "Error message",
+          "default": "Could not publish",
+          "vacuity": "mandatory",
+          "validators": [
+            {
+              "type": "",
+              "params": {}
+            }
+          ]
+        }
+      },
+      {
+        "id": "notifyOnError",
+        "prompt": {
+          "type": "input",
+          "message": "Notify on error",
+          "default": false,
+          "vacuity": "mandatory",
+          "validators": [
+            {
+              "type": "",
+              "params": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "packages": [
     {
       "id": "@servable-community/servable-publishable-shared",
       "version": "1.0.0",

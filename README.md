@@ -70,10 +70,10 @@ flowchart TD
 ### Available in Servable registry
 
 
-<img src="https://cdn.registry.servablecommunity.com/assets/logo.png" alt="drawing" style="width:50px;" />
+<img src="https://cdn.servable.app/assets/logo.png" alt="drawing" style="width:50px;" />
 
 
-@servable-community/publishable is available at [servable registry](https://registry.servablecommunity.com/protocol/@servable-community/publishable).
+@servable-community/publishable is available at [servable registry](https://servable.app/feature/@servable-community/publishable).
 
 
 **Use in your servable project:**
@@ -95,16 +95,17 @@ or
 npm install @servable-community/publishable
 ```
 
-## Compatible framework adapters
+## Compatible engines
 
 | Adapter | Version | Link |
 | ------- | ------- | ---- |
-| @servable-community/parse-server-adapter | * | https://github.com/servable-community/parse-server-adapter.git |
+| @servable-community/parse-server-engine | * | https://github.com/servable-community/parse-server-engine.git |
 
 ## Used APIs
 
 | Api | Version |
 | --- | ------- |
+| Route | * |
 | Object | * |
 | Cloud | * |
 | User | * |
@@ -215,12 +216,12 @@ Add this template to your class' protocols.json file. Fill the values to fit you
 ### Servable Documentation
 
 
-You can find here the complete [servable documentation](https://documentation.servablecommunity.com/) with guides and api reference.
+You can find here the complete [servable documentation](https://docs.servable.app/) with guides and api reference.
 
 ### Servable Registry
 
 
-You can find other Servable  protocols at the [Servable registry](https://registry.servablecommunity.com/)
+You can find other Servable  protocols at the [Servable registry](https://servable.app/)
 
 ### License
 
